@@ -1,0 +1,109 @@
+
+.table{
+    text-align: center;
+}
+.margen{
+    margin: 2%;
+}
+
+.padding {
+    padding: 2%;
+}
+
+.texto {
+    
+    text-align: center;
+        
+}
+
+.botonTabla{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.botonesModal{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+.botonesTabla:hover{
+    cursor: pointer;
+    border: solid 1px black ;
+    
+
+}
+/* Modal */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 115%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.recuadro {
+    width: 50%;
+    height: auto;
+}
+.card-total {
+    margin: auto;
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.items {
+    overflow-y: auto;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.display-none {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+/* Animacion de la progress bar*/
+.inicio{
+    width: 0%;
+}
+
+.transicion{
+    transition: width 2s;
+}
+
+.final{
+    width: 100%;
+}
+
+.margenFiltro{
+    margin: 4%;
+    margin-left: 30%;
+}
+
+
+  
+  
+  
+  
+  
+  
+
+  
+
+ 
+ 
+ 
+ 
+ 
+
